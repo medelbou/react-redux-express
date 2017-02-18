@@ -1,4 +1,4 @@
-# `create-react-app`, `redux`, `react-router` and an express server example
+# create-react-app, redux, react-router and an express backend
 
 To read more about how to setup a backend sever with `create-react-app`, see [here](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
 
