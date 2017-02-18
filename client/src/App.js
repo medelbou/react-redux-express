@@ -1,14 +1,24 @@
-import React, { Component } from 'react';
+import React  from 'react';
+import {Provider} from 'react-redux';
+
 import './App.css';
 
-class App extends Component {
-  render() {
+import configureStore from './configureStore';
+
+import Users from './Users'
+
+const store = configureStore();
+
+
+const App = () => {
     return (
-      <div className="App">
-        <p>Hello, World!</p>
-      </div>
+        <Provider store={store}>
+            <div>
+                <p>Hello, World!</p>
+                <Users/>
+            </div>
+        </Provider>
     );
-  }
-}
+};
 
 export default App;
