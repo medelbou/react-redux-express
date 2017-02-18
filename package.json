@@ -1,0 +1,23 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "create react app with express backend",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "helmet": "^3.4.0",
+    "morgan": "^1.8.1"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node index.js",
+    "client": "node start-client.js"
+  },
+  "author": "medelbou@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^3.3.0"
+  }
+}
