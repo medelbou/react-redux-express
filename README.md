@@ -2,7 +2,7 @@
 
 To read more about how to setup a backend sever with `create-react-app`, see [here](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
 
-To learn more about `create-react-app` see [here](ttps://github.com/facebookincubator/create-react-app).
+To learn more about `create-react-app` see [here](https://github.com/facebookincubator/create-react-app).
 
 ## Included
 
